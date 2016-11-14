@@ -1,2 +1,5 @@
 for i in range(100):
-    print (i+1)
+    if (i + 1) % 3 == 0:
+   		print("Fizz")
+    else:
+   		print (i+1)
